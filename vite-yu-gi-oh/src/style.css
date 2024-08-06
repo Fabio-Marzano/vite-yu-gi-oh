@@ -77,3 +77,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex.al-center {
+  align-items: center;
+}
+
+.d-flex.js-center {
+  justify-content: center;
+}
+
+.d-flex.js-between {
+  justify-content: space-between;
+}
+
+.d-flex.wrap {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=general.css.map */
